@@ -1,0 +1,49 @@
+.all {
+  background-color: #EEE; /* 背景色を設定 */
+  border-radius: 8px; /* 角を丸める */
+  width: 500px; /* 幅を設定 */
+  padding: 20px; /* 内側の余白 */
+  margin: 0 auto; /* 画面中央に配置 */
+  text-align: center; /* 中央揃え */
+}
+
+.title {
+  font-size: 30px; /* タイトルのフォントサイズを設定 */
+}
+
+.detail {
+  margin-top: 20px; /* 上部のマージンを設定 */
+  line-height: 1.5; /* 行間を設定 */
+}
+
+.buttons {
+  margin-top: 20px; /* ボタンの上部のマージンを設定 */
+}
+
+.createButton {
+  padding: 10px 20px;
+  background-color: #75A9FF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px; /* ボタンの右側のマージン */
+}
+
+.backButton {
+  padding: 10px 20px;
+  background-color: #BBBBBB;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px; /* ボタンの右側のマージン */
+}
+
+.createButton:hover {
+  background-color: #4689FF; /* ホバー時の背景色を変更 */
+}
+
+.backButton:hover {
+  background-color: #999999; /* ホバー時の背景色を変更 */
+}

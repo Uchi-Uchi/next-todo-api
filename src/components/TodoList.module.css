@@ -1,0 +1,82 @@
+.all {
+  background-color: #EEE;
+  border-radius: 8px;
+  width: 700px;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0 auto; /* 画面中央に配置 */
+  text-align: center; /* 中央揃え */
+}
+
+.title {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.todoList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* 全幅を占める */
+}
+
+.todoItem {
+  border: 1px solid #99c;
+  border-radius: 8px; /* 角を丸める */
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff; /* 背景色を白色に設定 */
+  width: 650px; /* 幅を設定 */
+  display: flex; /* 子要素を横並びに配置 */
+  justify-content: space-between; /* 詳細と削除ボタンを均等に配置 */
+}
+
+.addButton {
+  width: 673px;
+  margin: 0 auto; /* 中央揃え */
+  justify-content: center; /* 中央に配置 */
+  margin-bottom: 10px;
+  background-color: #8EB8FF;
+  border: none; 
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none; /* 下線を取り除く */
+  text-align: center; /* テキストを中央に配置する */
+  font-size: 20px;
+}
+
+.actions {
+  display: flex; /* 詳細と削除ボタンを横並びに配置 */
+  align-items: center; /* 縦方向の中央揃え */
+}
+
+.detailButton {
+  margin-right: 10px; /* 詳細と削除ボタンの間の余白 */
+  background-color: #5BFF7F; /* 赤色の背景 */
+  border: none; 
+  border-radius: 4px; /* 角を丸める */
+  color: white;
+  padding: 5px 10px; /* ボタンの余白 */
+  cursor: pointer;
+}
+
+.deleteButton {
+  background-color: #f44336; /* 赤色の背景 */
+  border: none; /* ボーダーなし */
+  border-radius: 4px; /* 角を丸める */
+  color: white; /* テキストカラーを白色に */
+  padding: 5px 10px; /* ボタンの余白 */
+  cursor: pointer; /* カーソルをポインターに変更 */
+}
+
+.detailButton:hover {
+  background-color: #4CAF50; /* ホバー時の背景色を変更 */
+}
+
+.deleteButton:hover {
+  background-color: #D32F2F; /* ホバー時の背景色を変更 */
+}
